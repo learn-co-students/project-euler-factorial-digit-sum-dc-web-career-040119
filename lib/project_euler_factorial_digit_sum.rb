@@ -1,5 +1,6 @@
 # code your solution here
 def factorial(n)
+  return 1 if n == 1
   (2..n).inject(:*)
 end
 
